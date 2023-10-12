@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .section {
   display: flex;
   justify-content: center;
@@ -33,10 +37,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-@media all and (width < map-get screenMap, laptop) {
+@media all and (width < 1260px) {
   .section__double {
     grid-template-columns: 1fr;
   }
 }
-
-/*# sourceMappingURL=service.css.map */
